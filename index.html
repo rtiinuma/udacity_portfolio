@@ -2,49 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200" rel="stylesheet">
   </head>
   <body>
       <header>
         <img class="logo" src="udacitylogo.png" alt="Udacity logo">
-        <div class="name">
+        
+        <div class="name upper">
           <h1>Renee Iinuma</h1>
-          <h3>Software Developer</h3>
+          <h4>Software Developer</h4>
         </div>
         <hr>
         <img class="top" src="top.jpg" alt="Top image">
       </header>
-
       <main>
-        <div class="container">
-          <section>
-            <h2 class="featured">Featured Work</h2>
-            <article class="project">
-              <img src="" alt="Project">
-              <h2>Movie Trailer Website</h2>
-              <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
-            </article>
-            <article class="project">
-              <img src="" alt="Project">
-              <h2>Item Catalog</h2>
-              <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
-            </article>
-            <article class="project">
-              <img src="" alt="Project">
-              <h2>Neighborhood Map</h2>
-              <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
-            </article>
-          </section>
-          <footer>
-            <ul>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Follow us on Twitter</a></li>
-              <li><a href="#">RSS</a></li>
-            </ul>
-          </footer>
-        </div>
+        <section>
+          <h2 class="featured upper">Featured Work</h2>
+          <article class="project">
+            <img class="icon" src="movieicon.png" alt="Movie Project">
+            <h3 class="upper">Movie Trailer Website</h3>
+            <p>Website listing various movie posters. Allows users to view trailers when movie is selected. Written in Python</p>
+            <a href="https://github.com/rtiinuma/ud036">Movie Trailer GitHub repo</a>
+          </article>
+          <article class="project">
+            <img class="icon" src="listicon.png" alt="Catalog Project">
+            <h3 class="upper">Item Catalog</h3>
+            <p>(To be implemented)</p>
+          </article>
+          <article class="project">
+            <img class="icon" src="locationicon.png" alt="Map Project">
+            <h3 class="upper">Neighborhood Map</h3>
+            <p>(To be implemented)</p>
+          </article>
+        </section>
+        <footer>
+          <p>Implemented as the "Build a Portfolio Site" assigment for Udacity Connect Intensive.</p>
+        </footer>
       </main>
   </body>
 </html>
