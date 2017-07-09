@@ -29,10 +29,6 @@ h1 {
   font-weight: 100;
 }
 
-h2 {
-  font-size: 3em;
-}
-
 h3 {
   margin: 0;
   font-size: 1.5em;
@@ -42,10 +38,6 @@ h4, h5 {
   margin: 0; 
   font-size: 2em;
   font-weight: 100;
-}
-
-p, a {
-  font-size: 1em;
 }
 
 header {
@@ -74,6 +66,16 @@ section {
 .featured {
   width: 100%;
   font-weight: bold;
+  font-size:2em;
+  color: #02b3e4;
+}
+
+a {
+  color: #02b3e4;
+}
+
+a:visited{
+  color: #7d97ad;
 }
 
 .project {
